@@ -1,0 +1,19 @@
+.button {
+  display: block;
+  margin: 0 auto;
+  height: 35px;
+  width: 140px;
+  font-weight: 500;
+  border-radius: 15px;
+  border: solid 2px #2196f3;
+  outline: none;
+  cursor: pointer;
+  background: #fff;
+  transition: all 0.25s linear;
+}
+
+.button:hover,
+.button:focus {
+  color: #fff;
+  background: #2196f3;
+}
